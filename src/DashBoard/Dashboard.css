@@ -1,0 +1,22 @@
+.marketPlace,.sold-cards{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chord{
+
+}
+
+.music_cards{
+
+}
+
+.card-image img{
+  width: 350px;
+  height: 300px;
+}
+
+.buy-button{
+  font-size: 18px;
+  font-weight: 600;
+}

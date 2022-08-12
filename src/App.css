@@ -1,32 +1,30 @@
-.App {
+.App{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button{
+  font-family: 'neue machina';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 127.52%;
   text-align: center;
+  color: #E5E5E5;
+  background: #222222;
+  padding: 16px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+.button-two{
+  background: none;
+  color: #222222;
+  border: 1px solid #222222;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +33,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.display-market{
+/* height:80vh; */
+color: #222222;
+text-align: center;
+
 }

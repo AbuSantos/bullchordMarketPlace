@@ -1,0 +1,59 @@
+.navigation{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo{
+  font-size: 24px;
+  color: #222222;
+  font-weight: 600;
+}
+
+.list{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.list li{
+  display: flex;
+  justify-content:  center;
+  list-style: none;
+}
+
+.list li a{
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #222222;
+  font-weight: 400;
+
+}
+
+.N-action{
+  display: flex;
+
+}
+
+.N-action img{
+  width: 12px;
+  margin-right: 16px;
+}
+
+.action-button button{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 4px 16px;
+  margin-top: 20px;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.action-button hr{
+  border: 1px solid #950BB8;
+  background-color: green;
+}
